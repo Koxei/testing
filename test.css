@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+#bg {
+    background-color: #b6b6b6;
+    margin: 100px 400px 400px 400px;
+}
+#head {
+    font-family: 'Cinzel', serif;
+    font-size: 42px;
+}
+#navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 250px;
+    padding: 35px;
+    text-align: start;
+    border-right: 2px solid;
+}
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-decoration: none;
+}
+#uli {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 700px;
+}
+#navli {
+    padding: 8px 8px;
+    border-bottom: 1px solid;
+}
+a:hover {
+    text-decoration: underline;
+}
+.heading {
+    font-weight: 300;  
+    font-size: 30px;
+}
+.topic {
+    font-size: 20px;
+    font-weight: 100;
+}
